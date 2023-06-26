@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-const float DEFAULT_VOLUME_PER_TICK = 0.34;
+const float DEFAULT_VOLUME_PER_TICK = 3.34;
 
 class FLUME {
 public:
