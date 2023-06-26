@@ -33,7 +33,7 @@ float FLUME::getAccumulatedVolume() {
 
 float FLUME::getFlowRate() {
     unsigned long now = millis();
-    float flowRate = 1000.0 * getAccumulatedTicks() / (now - _lastTime);
+    float flowRate = 1000.0 * getAccumulatedVolume() / (now - _lastTime);
     return flowRate;
 }
 
